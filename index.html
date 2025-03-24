@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body 
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header 
+        {
+            background: white;
+            color: black;
+            padding: 20px 10px;
+            font-size: 24px;
+            font-family: 'Times New Roman', Times, serif; 
+        }
+        nav 
+        {
+            background: black;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a 
+        {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            font-family: 'Times New Roman', Times, serif; 
+        }
+        nav a:hover 
+        {
+            background: red;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .logo img {
+            height: 200px;
+            margin-right: 10px;
+        }
+        #logo-heading {
+            color: red;
+            font-family: 'Times New Roman', Times, serif; 
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            width: 250px;
+            height: 200px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .card img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card p {
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: #f8b400;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <span id="logo-heading">Auto</span>Motive
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <img src="./image/car banner.png" style="height: 500px ; width: 1260px;">
+    <div class="container">
+        <div class="card">
+            <img src="./image/car1.jpeg" alt="Card Image 1">
+            <p>Hyundai SONATA 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car2.jpeg" alt="Card Image 2">
+            <p>Toyota REVO 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car3.jpeg" alt="Card Image 3">
+            <p>Toyota PRIUS 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car4.jpeg" alt="Card Image 4">
+            <p>Kia PICANTO 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car5.jpeg" alt="Card Image 5">
+            <p>Gwm HAVAL 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car6.jpeg" alt="Card Image 6">
+            <p>Toyota Corolla ALTIS 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car7.jpeg" alt="Card Image 5">
+            <p>Daihatsu MIRA 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car8.jpg" alt="Card Image 6">
+            <p>Hyundai SANTRO 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car9.jpeg" alt="Card Image 1">
+            <p>Suzuki SWIFT 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car10.jpeg" alt="Card Image 2">
+            <p>Honda BR-V 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car11.jpeg" alt="Card Image 3">
+            <p>Suzuki WAGON-R 2025</p>
+        </div>
+        <div class="card">
+            <img src="./image/car12.png" alt="Card Image 4">
+            <p>Volkswagen Golf GTI 2025</p>
+        </div>      
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 YourWebsite. All rights reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">Contact Us</a>
+        </p>
+    </footer>
+</body>
+</html>
